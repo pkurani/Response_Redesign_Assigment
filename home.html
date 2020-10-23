@@ -1,14 +1,134 @@
 <!doctype html>
-
 <html>
-  <head>
-    <title>INSERT TITLE HERE!</title>
-    <link rel="stylesheet" href="index.css">
-    <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  </head>
+   <head>
+      <title>My redesign</title>
+      <link rel="stylesheet" href="index.css">
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+   </head>
+   <body>
+         <div class= "header">
+            Redesigning EcQuality Auto Shop's Website
+         </div>
+         <p>
+            For too long, mechanic and autodetailing shops have been hampered by their lack of usability. Today, we will be analyzing and redesigning a page on EcQuality Auto Detailing's site to make it accessible to anyone and everyone!
+         </p>
+         <p>
+            Here is a snippet of the website we will be redesigning today:
+         </p>
+         <img src="websiteScreenShot.png" />
+         <div class= "sectionHeader">
+            Issues
+         </div>
+         <p> In this section, we will be exploring the Usability, Learnability, Memorability, and Accessability issues that currently exist with the site.
+         <div class="subSectionHeader">
+            Usability
+         </div>
+         <ul>
+            <li><b>Not all buttons on the page are responsive </b>; the green “Join Now” buttons redirect the user, but the green “Purchase Now” buttons just seem to be screenshots that don’t redirect the user anywhere — making it hard for users to determine how to purchase one of the services</li>
+            <li>Much of the text is <b>not only inconsistent, but very small</b> — making it hard to read</li>
+              <ul>
+            <li>For example, the descriptions on the Detail portion is significantly smaller than for the packages section for no apparent reason. The font should be consistent and large for all descriptions</li>
+          </ul>
+            <li><b>Sections are not divided in a consistent manner</b>. For example, Section header sizes are different, color of font that divides sections are different, and there is no clear divider between sections</li>
+            <li><b>When shrinking page, icons on top do not resize</b> and are not put into an “icon container”, making harder to access them on a shrunken page or mobile format.</li>
+         </ul>
+         <div class="subSectionHeader">
+            Learnability
+         </div>
+         <ul>
+            <li>As mentioned previously, the main issue with learnability comes with the buttons. Since <b>not all the buttons are usable</b>, the website requires the user to mess around with the interface to see what options are available to the user</li>
+         </ul>
+         <div class="subSectionHeader">
+            Memorability
+         </div>
+         <ul>
+            <li><b>Fails to really abide by any sort of scanning pattern</b> as its different for each section. A universal scanning pattern for the entire website would make the website much more memorable, and would allow users to traverse the site much more easily and pick and choose the products./services that they are interested in</li>
+            <li><b>Too much text with repeated information</b>. For example, some of the more expensive packages include the same features as the cheaper packages, but they want to repeat what is included. Displaying a clearer hierarchy within the text would make the content much more memorable</li>
+         </ul>
+         <div class="subSectionHeader">
+            Accessability
+         </div>
+         <ul>
+            <li>Overall, the <b>accessibility seem to be limited to contrast errors</b>. On the page, there were over 42 contrast errors — indicating that users (especially users with trouble seeing) would have issues seeing the page, reading the text and navigating the page in general</li>
+            <li>There were also quite a few <b>heading levels skipped</b>. Condensing the page a bit and removing these may make the page easier to access and interpret on first glance</li>
+            <li>Surprisingly, the screen-reader test displayed that the page was indeed being read in the order that it was intended. On initial sight, the ordering seemed very unintuitive and structured poorly, so I was extremely surprised to come to this discovery</li>
+         </ul>
 
-  <body>
-    <!-- TODO: put your HTML code here! -->
-  </body>
+         <p>
+            Now that we have addressed the issues with the site, here's how we intend to redesign it:
+         </p>
+
+         <div class= "sectionHeader">
+            Visual Redesign - Low Fidelity
+         </div>
+
+      <div class = "section">
+         <div class="subSectionHeader">
+            Desktop
+         </div>
+         <img src= "Balsamiq1.png">
+         <div class="subSectionHeader">
+            Tablet
+         </div>
+         <img src= "Balsamiq2.png">
+         <div class="subSectionHeader">
+            Phone
+         </div>
+         <img src= "Balsamiq3.png">
+      </div>
+
+      <p>
+         Now that we a template in place, lets create a high-fidelity mockup for all potential versions in which the webiste will be seen:
+      </p>
+
+      <div class= "sectionHeader">
+         Visual Redesign - High Fidelity
+      </div>
+      </div>
+
+      <div class = "section" >
+         <div class="subSectionHeader">
+            Desktop
+         </div>
+         <img src= "Figma1.png">
+         <div class="subSectionHeader">
+            Tablet
+         </div>
+         <img src= "Figma2.png">
+         <div class="subSectionHeader">
+            Phone
+         </div>
+         <img src= "Figma3.png">
+      </div>
+
+      <p>
+         Here is a style guide for how we anticipate the website's dynamic tools (buttons, dropdown containers, etc) to look:
+      </p>
+
+      <div class= "sectionHeader">
+         Style Guide
+      </div>
+
+      </div>
+      <img src= "Figma4.png">
+
+
+      <div class="sectionHeader"> <a href="#">
+         Click here to access my website! </a>
+
+      </div>
+
+      <div class= "sectionHeader">
+         Post-Redesign Observations
+      </div>
+      <p>
+        <ul>
+           <li> Adjusts to changes in size of screen for all types of devices and all types of computer screens!</li>
+           <li>WAVE-related errors are now virtually non-existent</li>
+           <li>Website reads as intended</li>
+           <li>With increased font size, the website resizes purportionally; surprisingly no weird spaces or divisions appear</li>
+           <li>Website also works in different languages as well</li>
+        </ul>
+      </p>
+   </body>
 </html>
