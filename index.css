@@ -1,6 +1,6 @@
 /* Put your style information here! */
 body {
-    background-color: #ffffd9;
+    background-color: #FFE4E4;
       font-family: arial;
       font-weight: 300;
       font-size: 22px;
@@ -37,6 +37,7 @@ body {
     text-align: center;
     font-weight: 600;
     font-size: 50px;
+    color: black;
   }
 
   .subSectionHeader {
@@ -44,6 +45,7 @@ body {
     width: 50%;
     font-weight: 450;
     font-size: 40px;
+    color: black;
   }
 
   .section {
