@@ -1,12 +1,12 @@
-/* Put your style information here! */
+@import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Padauk:wght@400;700&display=swap');
 body {
-      font-family: arial;
+  font-family: 'Padauk', sans-serif;
       font-weight: 300;
       font-size: 22px;
-      color: grey;
+      color: #8B8B8B;
       padding-top: 5px;
-      padding-left: 5em;
-      padding-right: 5em;
+      padding-left: 4em;
+      padding-right: 4em;
       background-color: #FFE4E4;
   }
   ul {
@@ -57,8 +57,6 @@ body {
   p{
     padding-top: 2em;
     margin: auto;
-    padding-left: 5em;
-    padding-right: 5em;
     text-align: center;
   }
   img {
